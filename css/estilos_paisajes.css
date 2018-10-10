@@ -1,6 +1,6 @@
 body 
 {
-	font-family: Arial;
+	font-family: Dancing Script;
 	background-color: black;
 }
 
@@ -41,6 +41,8 @@ a
 	color: white;
 }
 
+
+
 #section_paisajes
 {
 	width: 100%;
@@ -50,6 +52,87 @@ a
 
 }
 
+
+#img1
+{
+	background-image: url(../img/img1.jpg);
+	width: 230px;
+	height:170px;
+	float: left;
+	margin: 30px 25px;
+	padding: 10px;
+	background-size: 100% 100%;
+	-webkit-filter:blur(30px);
+	filter: blur(10px)
+}
+
+#img2
+{
+	background-image: url(../img/img2.jpg);
+	width: 230px;
+	height:170px;
+	float: left;
+	margin: 30px 25px;
+	padding: 10px;
+	background-size: 100% 100%;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#img3
+{
+	background-image: url(../img/img3.jpg);
+	width: 230px;
+	height:170px;
+	float: left;
+	margin: 30px 25px;
+	padding: 10px;
+	background-size: 100% 100%;
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+
+#img4
+{
+	background-image: url(../img/img4.jpg);
+	width: 230px;
+	height:170px;
+	float: left;
+	margin: 30px 25px;
+	padding: 10px;
+	background-size: 100% 100%;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#img5
+{
+	background-image: url(../img/img5.jpg);
+	width: 230px;
+	height:170px;
+	float: left;
+	margin: 30px 25px;
+	padding: 10px;
+	background-size: 100% 100%;
+}
+
+#img6
+{
+	background-image: url(../img/img6.jpg);
+	width: 230px;
+	height:170px;
+	float: left;
+	margin: 30px 25px;
+	padding: 10px;
+	background-size: 100% 100%;
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+
+
+/*Parte foter*/
+
 footer
 {
 	width: 100%;
@@ -57,66 +140,45 @@ footer
 	background-color: #C6d5c5;
 	padding: 3px;
 	border-radius: 0px 0px 10px 10px;
+	font-size: 12px;
+}
+
+li
+{
+	list-style-type: none;
+	text-indent: -100px;
+	margin: 0px 70px;
+
 }
 
 
-#section_paisajes div img
+#contacto
 {
-  	height: 200px;
-	width: 250px;
-}
-
-
-.img1
-{
-	border: 2px solid black; 
-	margin: 10px 10px;
-	position: absolute;
+	width: 225px;
+	height: 300px;
 	float: left;
-	width: auto;
+	margin-left: 10px;
 }
 
-.img2
+#terminos
 {
-	border: 2px solid black; 
-	margin: 10px 325px;
-	position: absolute;
-	width: auto;
-}
-
-.img3
-{
-	border: 2px solid black; 
-	margin: 0px 10px;
-	position: fixed;	
-	margin: 10px 635px;
-	width: auto;
-}
-
-.img4
-{
-	border: 2px solid black; 
-	margin: 280px 10px;
-	position: absolute;
+	width: 225px;
+	height: 300px;
 	float: left;
-	width: auto;
 }
 
-.img5
+#redes
 {
-	border: 2px solid black; 
-	margin: 280px 325px;
-	position: absolute;
-	width: auto;
-
+	width: 225px;
+	height: 300px;
+	float: left;
 }
 
-.img6
+#derechos
 {
-	border: 2px solid black; 
-	position: fixed;	
-	margin: 280px 635px;
-	width: auto;
+	width: 225px;
+	height: 300px;
+	float: left;
+	margin-right: -10px;
 }
-
 
