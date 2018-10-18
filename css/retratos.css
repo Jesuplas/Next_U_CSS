@@ -8,6 +8,7 @@ body
 {
 	font-family: 'Dancing Script', cursive;
 	background-color: #02010a;
+	animation: miAnimacion 1.5s;
 }
 
 #contenido
@@ -18,6 +19,21 @@ body
 	background-color: #02010a;
 }
 
+@-webkit-keyframes miAnimacion
+{
+	0%
+	{
+		margin-top: 150%;	
+	}
+	60%
+	{
+		margin-top: -5%;	
+	}
+	100%
+	{
+		margin-top: 0%;
+	}
+}
 
 /*ENCABEZADO*/
 
@@ -55,6 +71,11 @@ header li
 #enlaces
 {
 	float: right;
+}
+
+#cabecera #enlaces .active a:link, #cabecera #enlaces .active a:visited 
+{
+	text-decoration: none;
 }
 
 /*IMAGENES CETRALES*/
